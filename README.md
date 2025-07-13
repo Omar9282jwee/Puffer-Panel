@@ -1,9 +1,8 @@
 # Puffer-Panel 
 
 # modded version of codesanbox
-```
 https://codesandbox.io/p/devbox/strange-darkness-ppysqt
-```
+
 
 # install puffer panel
 
