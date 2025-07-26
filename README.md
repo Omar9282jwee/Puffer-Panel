@@ -7,16 +7,7 @@ https://codesandbox.io/p/devbox/strange-darkness-ppysqt
 # install puffer panel
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/puffer-panel/refs/heads/main/install)
-```
-
-- Admin user create & start
-
-```
-sudo pufferpanel user add
-```
-```
-sudo systemctl enable --now pufferpanel
+bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Puffer-Panel/refs/heads/main/puffer-panel)
 ```
 
 ### again start your panel
