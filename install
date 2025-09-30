@@ -22,7 +22,7 @@ apt install -y sudo
 apt install -y systemctl
 
 echo "🌐 Adding PufferPanel repository..."
-curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh?any=true | sudo bash
+curl -s https://raw.githubusercontent.com/ZarkosX/Puffer-Panel/refs/heads/main/script.deb.sh | sudo bash
 
 echo "📦 Updating package list..."
 sudo apt update
