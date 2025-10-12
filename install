@@ -22,7 +22,7 @@ apt install -y sudo
 apt install -y systemctl
 
 echo "🌐 Adding PufferPanel repository..."
-curl -s https://raw.githubusercontent.com/ZarkosX/Puffer-Panel/refs/heads/main/script.deb.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh?any=true | sudo bash
 
 echo "📦 Updating package list..."
 sudo apt update
@@ -37,4 +37,4 @@ echo "✅ Enabling and starting PufferPanel service..."
 sudo systemctl enable --now pufferpanel
 
 echo "🔥 PufferPanel is installed and running!"
-echo "Subscribe To @SanjitGamingYT"
+echo "Panel-ZarkosX"
